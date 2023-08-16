@@ -1,0 +1,74 @@
+.toggle-button {
+  background: linear-gradient(90deg, rgba(27,31,142,1) 0%, rgba(146,204,251,1) 100%);
+  font-size: 28px;
+  color: white;
+  border-radius: 5px;
+  padding: 0.1%;
+  margin-right: 10px;
+  cursor: pointer;
+
+  transition: color 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.toggle-button:hover {
+  color: #3498db;
+}
+.add-child-button{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-left: 1%;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(97,163,217,1) 100%);
+  font-size: 16px;
+  border: none;
+  padding: 0.6%;
+  border-radius: 5px;
+}
+#tree-container{
+  width: 90%;
+  background-color: #f7f7f7;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.node-name{
+  color: white;
+  background: rgb(27,31,142);
+  background: linear-gradient(90deg, rgba(27,31,142,1) 0%, rgba(146,204,251,1) 100%);
+  padding: 0.6%;
+  padding-right: 50%;
+border-radius: 5px;
+
+  font-size: 18px;
+}
+.input-container{
+  margin-left: 1%;
+ margin-top: 0.5%;
+ margin-bottom: 0.5%;
+}
+.data-input{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /* border: 2px solid black; */
+  font-size: 16px;
+}
+.tree{
+  border: 0.5px solid rgb(15, 56, 95);
+  width: 90%;
+  margin: auto;
+  background-color: #f7f7f7;
+  /* border: 1px solid ; */
+}
+
+body{
+  margin-left: 5%;
+  /* background-color: #ebeaea; */
+}
+#export{
+  font-weight: bolder;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-top: 2%;
+  font-size: 16px;
+  padding: 0.5%;
+}
+#display{
+  margin-top: 2%;
+}
